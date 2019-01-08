@@ -1,0 +1,122 @@
+*{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: rgb(1, 1, 54)
+}
+.haus{
+    background: black;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "vinstri tenglar";
+    color: gray;
+}
+.haus_bakgrunnur{
+    background: black;
+    padding: 0px;
+}
+.nafn{
+    grid-area: nafn;
+}
+.vinstri{
+    grid-area: vinstri;
+    text-align: center;
+    font-size: 2em;
+    display: flex;
+}
+.tenglar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 10px;
+}
+.nafn{
+    text-align: right;
+    padding-right: 10px;
+}
+.um_mig{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid gray;
+    color: gray;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "vinstri haegri";
+}
+.eg{
+    grid-area: vinstri;
+}
+.eg>h1{
+    font-size: 2em;
+}
+.tenglar{
+    grid-area: haegri;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.mynd{
+    grid-area: haegri;
+    padding: 10px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.ahugamal{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.verkefni{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.verkefni>h2{
+    text-align: center;
+}
+.verkefni_tenglar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.verkefni_tenglar>div{
+    padding-right: 1em;
+}
+.fotur{
+    text-align: center;
+    font-size: 1em;
+    padding: 2em;
+}
+.greinagerd{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 480px 240px 240px;
+    grid-template-areas: "texti mynd1 mynd2";
+    border-bottom: 1px solid gray;
+}
+.greinagerd>section>img{
+    padding-bottom: 50px;
+}
+.texti{
+    grid-area: texti;
+}
+.mynd1{
+    grid-area: mynd1;
+}
+.mynd2{
+    grid-area: mynd2;
+}
