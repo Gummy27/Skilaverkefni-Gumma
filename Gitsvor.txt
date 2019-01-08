@@ -1,0 +1,9 @@
+1. 
+	cd: breytir innan hvaða svæðis skipanirnar verða framkvæmdar svo sem möppum eða "directories".
+	ls: skoðar innihald möppu eða "directory" og birtir innihaldið á skipunarlínunni.
+	pwd: birtir staðsetningu skipunarlínunar.
+	mkdri: býr til "directories".
+2.
+	git clone: klónar allar skrár á ákveðinni github vefsíðu.
+	git status: sýnir hvaða breytingar hafa átt sér stað nýlega.
+	
