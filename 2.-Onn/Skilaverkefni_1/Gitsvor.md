@@ -15,3 +15,5 @@
     git branch - eyðir, býr til eða sýnir möppu/skjala tré.
 
 4. útgáfustýring geymir gamlar útgáfur í skjali svo að þú getir endurkallað þær útgáfur.
+
+5. Aukinn stjórn og meiri hugsanlegar aðgerðir með github möppurnar eru helstu rök fyrir því að nota    git.
