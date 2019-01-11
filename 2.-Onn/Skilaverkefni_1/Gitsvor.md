@@ -13,4 +13,5 @@
     git log - Sýnir öll commit sem þú hefur gert
     git checkout - Annaðhvort skiptir tré eða lætur eydd skjöl koma aftur.
     git branch - eyðir, býr til eða sýnir möppu/skjala tré.
-    
+
+4. útgáfustýring geymir gamlar útgáfur í skjali svo að þú getir endurkallað þær útgáfur.
